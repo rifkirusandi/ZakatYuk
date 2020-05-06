@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tv_history_jenis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Jenis Top Up: Link Aja"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tv_history_transaksi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="ID Transaksi: 342094230948230"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tv_history_jumlah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Jumlah: Rp 150.000"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tv_history_waktu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="18 Maret 2020 18:00:00"
+            android:textColor="#000000" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

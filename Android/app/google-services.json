@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "809369359447",
+    "firebase_url": "https://zakatyuk-4662a.firebaseio.com",
+    "project_id": "zakatyuk-4662a",
+    "storage_bucket": "zakatyuk-4662a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809369359447:android:4aa8c614b02683e198ff12",
+        "android_client_info": {
+          "package_name": "com.si410702.java.zakatyuk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809369359447-aohar9fl3m2mhe00ge8u8reiumr6nm8o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.si410702.java.zakatyuk",
+            "certificate_hash": "ac59c50087ec2af8b9620d8e5ab910bbc7311b46"
+          }
+        },
+        {
+          "client_id": "809369359447-els0k9acmnhp2qktm6etug2bvns2clvj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.si410702.java.zakatyuk",
+            "certificate_hash": "0284debd840f295800d1bc154734dee67e521068"
+          }
+        },
+        {
+          "client_id": "809369359447-e1keopk7cqjh4j1c1fqj1rqobv0ao62t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3q_FtABShyIyxQd-rnskCY85EA2hBPF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809369359447-e1keopk7cqjh4j1c1fqj1rqobv0ao62t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

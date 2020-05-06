@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateUserAccount">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/account_user_image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:src="@android:color/darker_gray"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#000000"
+                android:onClick="changeProfilePic"
+                app:layout_constraintBottom_toBottomOf="@+id/account_user_image"
+                app:layout_constraintEnd_toEndOf="@+id/account_user_image"
+                android:src="@drawable/ic_camera_alt" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center_horizontal"
+            android:onClick="changeProfilePic"
+            android:text="Change Profile Photo"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />-->
+
+
+        <TextView
+            android:id="@+id/account_user_name_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textColor="#A7A7A7"/>
+
+        <EditText
+            android:id="@+id/account_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:inputType="textPersonName"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/account_user_email_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="#A7A7A7"/>
+
+        <EditText
+            android:id="@+id/account_user_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:inputType="text|textEmailAddress"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/account_user_alamat_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:textColor="#A7A7A7"/>
+
+        <EditText
+            android:id="@+id/account_user_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:inputType="textLongMessage"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/account_user_telp_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No. Telp"
+            android:textColor="#A7A7A7"/>
+
+        <EditText
+            android:id="@+id/account_user_telp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:inputType="phone"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/lanjut_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:background="#2ECC71"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="SAVE"
+            android:layout_below="@+id/container"
+            android:layout_marginTop="30dp"
+            android:onClick="saveProfile"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

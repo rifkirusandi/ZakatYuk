@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="30dp">
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/spin_kit"
+            style="@style/SpinKitView.WanderingCubes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:SpinKit_Color="#2ECC71"
+            android:layout_marginTop="80dp"
+            />
+
+        <TextView
+            android:id="@+id/loading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/loading_bayar_string"
+            android:layout_below="@id/loading_img"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="60dp"
+            android:textAlignment="center"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

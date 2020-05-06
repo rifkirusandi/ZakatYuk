@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".TrackingActivity">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="@string/tracking_jenis_zakat"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_jenis_zakat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Zakat Fitrah"
+            android:textColor="#000" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#D8D8D8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/tracking_tanggal_bayar"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_tanggal_bayar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="18 Februari 2020"
+            android:textColor="#000" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#D8D8D8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/tracking_nominal_zakat"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_nominal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Rp200000"
+            android:textColor="#000" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#D8D8D8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/tracking_nama_lembaga"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_nama_lembaga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Masjid At-Taqwa"
+            android:textColor="#000" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#D8D8D8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/tracking_tanggal_penyerahan"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_tanggal_penyerahan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="22 Februari 2020"
+            android:textColor="#000" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#D8D8D8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/tracking_nama_penerima"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_penerima"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Luhut Lagi"
+            android:textColor="#000" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#D8D8D8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/tracking_alamat_penerima"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Jakarta Selatan"
+            android:textColor="#000" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#D8D8D8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/tracking_status"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="2dp">
+
+            <ImageView
+                android:id="@+id/Pembayaran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9"
+                app:srcCompat="@drawable/image_ctg" />
+
+            <TextView
+                android:id="@+id/Pembayaran1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Pembayaran"
+                android:layout_marginTop="10dp"
+                android:text="Pembayaran"
+                android:textColor="#000"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/Alokasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_toRightOf="@id/Pembayaran"
+                app:srcCompat="@drawable/image_hourglass" />
+
+            <TextView
+                android:id="@+id/Diterima1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Alokasi"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="13dp"
+                android:layout_toRightOf="@id/Pembayaran1"
+                android:text="Alokasi Zakat"
+                android:textColor="#000"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

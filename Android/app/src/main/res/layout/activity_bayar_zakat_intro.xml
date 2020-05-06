@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/bayar_icon"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/ip_app_pay"
+            />
+
+        <TextView
+            android:id="@+id/tv_ket_bayar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bayar_icon"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="@string/bayar_intro_text" />
+
+
+
+
+        <Button
+            android:id="@+id/topup_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#2ECC71"
+            android:background="@drawable/green_outer_border"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="70dp"
+            android:text="@string/top_up_btn"
+            android:layout_below="@+id/tv_ket_bayar"
+            android:layout_marginBottom="10dp"
+            android:onClick="toTopUp"
+            />
+
+        <Button
+            android:id="@+id/lanjut_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:background="#2ECC71"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/lanjut_btn"
+            android:layout_alignParentBottom="true"
+            android:onClick="toBayar"
+            />
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="20dp">
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/struk_border"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="NOTA"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/bayar_id_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Id Pembayaran"
+                android:textColor="#A7A7A7" />
+
+            <TextView
+                android:id="@+id/bayar_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="-"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/bayar_date_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Pembayaran"
+                android:textColor="#A7A7A7" />
+
+            <TextView
+                android:id="@+id/bayar_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="-"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/bayar_name_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Pembayar"
+                android:textColor="#A7A7A7" />
+
+            <TextView
+                android:id="@+id/bayar_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="-"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/bayar_jenis_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis Zakat"
+                android:textColor="#A7A7A7" />
+
+            <TextView
+                android:id="@+id/bayar_jenis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="-"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/bayar_jumlah_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jumlah"
+                android:textColor="#A7A7A7" />
+
+            <TextView
+                android:id="@+id/bayar_jumlah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="-"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/bayar_keterangan_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Keterangan"
+                android:textColor="#A7A7A7" />
+
+            <TextView
+                android:id="@+id/bayar_keterangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="-"
+                android:textColor="#000" />
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/lanjut_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:background="#2ECC71"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="OK"
+            android:layout_below="@+id/container"
+            android:layout_marginTop="15dp"
+            android:onClick="toHome"
+            />
+    </LinearLayout>
+
+</ScrollView>

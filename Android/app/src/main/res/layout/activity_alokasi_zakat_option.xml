@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlokasiZakatOption">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/alokasi_jenis_zakat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="@string/alokasi_option_total_zakat"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/alokasi_jumlah_zakat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            tools:text="Rp -" />
+
+        <TextView
+            android:id="@+id/alokasi_tgl_alokasi_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alokasi_option_tgl_alokasi"
+            android:textColor="#A7A7A7" />
+
+        <EditText
+            android:id="@+id/alokasi_tgl_alokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:autofillHints=""
+            android:inputType="date"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/alokasi_nama_penerima_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alokasi_option_nama_penerima"
+            android:textColor="#A7A7A7" />
+
+        <EditText
+            android:id="@+id/alokasi_nama_penerima"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:autofillHints=""
+            android:inputType="textPersonName"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/alokasi_telp_penerima_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alokasi_option_no_telp"
+            android:textColor="#A7A7A7" />
+
+        <EditText
+            android:id="@+id/alokasi_telp_penerima"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:inputType="number"
+            android:textColor="#000"
+            android:autofillHints="" />
+
+        <TextView
+            android:id="@+id/alokasi_alamat_penerima_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alokasi_option_alamat"
+            android:textColor="#A7A7A7" />
+
+        <EditText
+            android:id="@+id/alokasi_alamat_penerima"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="20dp"
+            android:inputType="textLongMessage"
+            android:textColor="#000"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/lanjut_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:background="#2ECC71"
+            android:onClick="alokasiConfirm"
+            android:text="@string/alokasi_option_btn"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+
+</ScrollView>

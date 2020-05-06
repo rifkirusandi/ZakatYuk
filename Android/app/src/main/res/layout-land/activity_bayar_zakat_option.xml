@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="40dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pilih_jenis_zakat"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                />
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinner"
+                app:ms_arrow_tint="@color/cardview_dark_background"
+                app:ms_hide_arrow="false"
+                style="@style/spinner_style"
+                android:elevation="2dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nominal_option"
+                android:layout_marginTop="30dp"
+                />
+
+            <EditText
+                android:id="@+id/jumlah_zakat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/nominal_hint"
+                android:inputType="number"
+                android:layout_marginBottom="15dp"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_setuju"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkbox_text"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/lanjut_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:background="#2ECC71"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/bayar_btn"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="40dp"
+            android:onClick="toStruk"
+            />
+    </LinearLayout>
+
+</ScrollView>

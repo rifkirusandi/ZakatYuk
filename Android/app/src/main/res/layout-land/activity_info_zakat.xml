@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="40dp"
+        tools:context=".InfoZakatActivity">
+
+        <LinearLayout
+            android:id="@+id/info_linear_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nisab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="@string/info_nisab_zakat"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nisab1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nisab"
+                android:fontFamily="@font/poppins"
+                android:text="@string/info_nisab_text"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/info_garis"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#D8D8D8"
+            android:layout_below="@+id/info_linear_layout"
+            android:layout_marginTop="15dp"/>
+
+
+        <TextView
+            android:id="@+id/penghasilan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info_garis"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/info_zakat_penghasilan"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/penghasilan1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/penghasilan"
+            android:fontFamily="@font/poppins"
+            android:text="@string/info_nisab_penghasilan"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/fitrah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/penghasilan1"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/info_zakat_fitrah"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fitrah1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fitrah"
+            android:fontFamily="@font/poppins"
+            android:text="@string/info_nisab_fitrah"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fitrah1"
+            android:layout_marginTop="40dp"
+            android:background="#2ECC71"
+            android:onClick="lanjutkan"
+            android:text="@string/info_btn_lanjutkan"
+            android:textColor="#fff" />
+
+    </RelativeLayout>
+</ScrollView>

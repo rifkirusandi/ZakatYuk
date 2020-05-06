@@ -1,0 +1,224 @@
+<resources>
+    <string name="app_name">Zakat Yuk</string>
+    <string name="loading_bayar_string">The zakat foundation will process the zakat payment and you can see the progress in the zakat list on your account tab</string>
+    <string-array name="zakat_array">
+        <item>Zakat Fitrah</item>
+        <item>Zakat Penghasilan</item>
+    </string-array>
+    <string name="zakatyuk">ZakatYuk</string>
+    <string name="username">John Doe</string>
+    <string name="email">johndoe@gmail.com</string>
+    <string name="password">********</string>
+    <string name="retypepassword">********</string>
+    <string name="register">Sign Up</string>
+    <string name="hasil">Success</string>
+    <string name="uname">Username</string>
+    <string name="hitung">Calculate</string>
+    <string name="image">Image</string>
+
+    <string-array name="list_top_up_name">
+        <item>Gopay</item>
+        <item>Ovo</item>
+        <item>Link Aja</item>
+        <item>Dana</item>
+    </string-array>
+
+    <array name="list_top_up_image">
+        <item>@drawable/gopay</item>
+        <item>@drawable/ovo</item>
+        <item>@drawable/linkaja</item>
+        <item>@drawable/dana</item>
+    </array>
+
+
+    <string-array name="zakat">
+        <item>- - -</item>
+        <item>Zakat Fitrah</item>
+        <item>Zakat Penghasilan</item>
+    </string-array>
+    <string name="title_activity_home_user">HomeUserActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_list">List</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_profile">Profile</string>
+    <string name="home_user_profile_title">My Account</string>
+    <string name="home_user_profile_name">Ilham Nuryanto</string>
+    <string name="home_user_profile_edit">VIEW MY PROFILE</string>
+    <string name="home_user_profile_type">Zakat Fitrah</string>
+    <string name="home_user_profile_date">29 February 2020</string>
+    <string name="home_user_profile_address">At-taqwa Mosque, Texas city</string>
+    <string name="home_user_profile_type2">Zakat Penghasilan</string>
+    <string name="home_user_profile_date2">30 February 2020</string>
+    <string name="home_user_profile_address2">At-tauba Mosque, Las Vegas</string>
+    <string name="home_user_list_title">Welcome,</string>
+    <string name="home_user_list_name">Ilham Nuryanto</string>
+    <string name="home_user_list_title2">Zakat yuk!</string>
+    <string name="home_user_list_hitung">Calculate</string>
+    <string name="home_user_list_desc">Calculate how much zakat should you spend.</string>
+    <string name="home_user_list_choose">Choose which one you want to do.</string>
+    <string name="home_user_list_topup">Top Up</string>
+    <string name="home_user_list_desc2">Top up your balance so you can pay your zakat easily.</string>
+    <string name="home_user_list_bayar">Payment</string>
+    <string name="home_user_list_desc3">Pay zakat according to the amount you have calculated before.</string>
+    <string name="home_user_home_name">Ilham Nuryanto</string>
+    <string name="home_user_home_title">Zakat yuk!</string>
+    <string name="home_user_home_type">Zakat Fitrah</string>
+    <string name="home_user_home_desc">As a Muslim, zakat fitrah is a zakat that you must spend.</string>
+    <string name="home_user_home_type2">Zakat Penghasilan</string>
+    <string name="home_user_home_desc2">If you already have an income then you can pay the income zakat.</string>
+    <string name="home_lembaga_profile_edit">EDIT PROFILE</string>
+    <string name="home_lembaga_profile_title">My Account</string>
+    <string name="home_lembaga_profile_name">Masjid Al Hikmah</string>
+    <string name="home_lembaga_profile_name2">Masjid Al Hikmah</string>
+    <string name="home_lembaga_profile_email">alhikmah.mosque@gmail.com</string>
+    <string name="home_lembaga_profile_address">Tokyo</string>
+    <string name="home_lembaga_profile_phone">Phone Number</string>
+    <string name="home_lembaga_home_title">Welcome,</string>
+    <string name="home_lembaga_home_name">Masjid Al Hikmah</string>
+    <string name="home_lembaga_home_alokasi">Zakat Allocation</string>
+    <string name="home_lembaga_home_desc">Zakat that have been received must be allocated to the right people.</string>
+    <string name="home_lembaga_home_type">Fakir</string>
+    <string name="home_lembaga_home_type2">Miskin</string>
+    <string name="home_lembaga_home_type3">Amil</string>
+    <string name="home_lembaga_list_title">Welcome,</string>
+    <string name="home_lembaga_list_name">Masjid Al Hikmah</string>
+    <string name="home_lembaga_list_alokasi">Allocation</string>
+    <string name="home_lembaga_list_desc">Allocation of zakat that has entered the system.</string>
+    <string name="home_lembaga_list_choose">Choose which one you want to do.</string>
+    <string name="home_lembaga_list_tracking">Tracking</string>
+    <string name="home_lembaga_list_desc2">See the list of zakat allocations that have been made.</string>
+    <string name="signup_username">Username</string>
+    <string name="signup_email">Email</string>
+    <string name="login_activity_eror_wrong">Incorrect Email or Password</string>
+    <string name="login_activity_berhasil">Login successful</string>
+    <string name="login_activity_alert_kosong">This field cannot be empty</string>
+    <string name="login_activity_auth_loading">Account Authentication</string>
+    <string name="login_title">ZakatYuk</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_desc">No account?</string>
+    <string name="login_sign_up">Sign Up</string>
+    <string name="login_btn">LOGIN</string>
+    <string name="signup_password">Password</string>
+    <string name="signup_re_type_password">Re-type Password</string>
+    <string name="signup_desc">Already have an account?</string>
+    <string name="signup_login">Login</string>
+    <string name="alokasi_berhasil_title">Allocation Details</string>
+    <string name="alokasi_berhasil_id_pemabayaran">Payment Id</string>
+    <string name="alokasi_berhasil_tanggal">Date of Allocation</string>
+    <string name="alokasi_berhasil_nama_pengalokasi">Allocation Name</string>
+    <string name="alokasi_berhasil_lembaga">The Institution</string>
+    <string name="alokasi_berhasil_jumlah">Amount</string>
+    <string name="alokasi_berhasil_penerima">Zakat recipient</string>
+    <string name="alokasi_berhasil_alamat">Recipient\'s Address</string>
+    <string name="alokasi_berhasil_no_telp">Phone Number</string>
+    <string name="alokasi_berhasil_oke">OK</string>
+    <string name="alokasi_detail_total_zakat">Total Zakat</string>
+    <string name="alokasi_detail_pembayar_zakat">Zakat payer :</string>
+    <string name="imageview">imageView</string>
+    <string name="alokasi_detail_detail">Detail</string>
+    <string name="alokasi_detail_id_pembayaran">Payment Id</string>
+    <string name="alokasi_detail_tanggal_pembayaran">Payment date</string>
+    <string name="alokasi_detail_email">Email</string>
+    <string name="alokasi_detail_no_telp">Phone Number</string>
+    <string name="alokasi_detail_btn">CONTINUE</string>
+    <string name="alokasi_option_total_zakat">Total Zakat</string>
+    <string name="alokasi_option_tgl_alokasi">Allocation Date</string>
+    <string name="alokasi_option_nama_penerima">Recipient\'s name</string>
+    <string name="alokasi_option_no_telp">Phone Number</string>
+    <string name="alokasi_option_alamat">Address</string>
+    <string name="alokasi_option_btn">ALLOCATION</string>
+    <string name="alokasi_activity_title">Zakat Allocation?</string>
+    <string name="alokasi_activity_desc">You sure you allocate zakat?</string>
+    <string name="alokasi_activity_no">No</string>
+    <string name="alokasi_activity_yes">Allocation</string>
+    <string name="alokasi_activity_alert">You must complete all data</string>
+    <string name="signup_activity_loading">Registering account</string>
+    <string name="signup_activity_alert_1">Username cannot be empty</string>
+    <string name="signup_activity_alert_2">Email cannot be empty</string>
+    <string name="signup_activity_alert_3">Password cannot be empty</string>
+    <string name="signup_activity_alert_4">Retype Password cannot be empty</string>
+    <string name="signup_activity_alert_5">Password and Retype Password must be the same</string>
+    <string name="signup_activity_alert_6">Password must be at least 6 characters long</string>
+    <string name="signup_activity_alert_7">The maximum password is 20 characters</string>
+    <string name="signup_activity_notif_1">Account registration successful</string>
+    <string name="signup_activity_notif_2">Account registration failed, please try again</string>
+
+    <string name="hitung_pilih_zakat">Choose Zakat</string>
+    <string name="hitung_gaji_bulan">Salary income/month</string>
+    <string name="hitung_pendapatan_lain">Other Income</string>
+    <string name="hitung_opsional">(Opsional)</string>
+    <string name="hitung_hutang">Debt</string>
+    <string name="hitung_harga_beras">Price of Rice/Kg</string>
+    <string name="hitung_input_harga_beras">*Enter the price of rice based on market prices in your area.</string>
+    <string name="info_nisab_zakat">Nisab Zakat</string>
+    <string name="info_zakat_penghasilan">Zakat Penghasilan</string>
+    <string name="info_nisab_text">Before calculating zakat, let\'s find out the Nisab!</string>
+    <string name="info_nisab_penghasilan">Nisab zakat income is worth 520 kg of rice (653 kg of rice / grain = five ausaq) and is issued at the time of each salary or income. So, you can spend 2.5 percent on your net income every month.</string>
+    <string name="info_zakat_fitrah">Zakat Fitrah</string>
+    <string name="info_nisab_fitrah">Zakat fitrah is zakat that must be paid by a Muslim at the end of the month of Ramadan until before Eid prayer</string>
+    <string name="info_btn_lanjutkan">Continue</string>
+    <string name="tracking_jenis_zakat">Type of Zakat</string>
+    <string name="tracking_tanggal_bayar">Payment date</string>
+    <string name="tracking_nominal_zakat">Nominal Zakat</string>
+    <string name="tracking_nama_lembaga">The institution</string>
+    <string name="tracking_tanggal_penyerahan">Delivery Date</string>
+    <string name="tracking_nama_penerima">Receiver</string>
+    <string name="tracking_alamat_penerima">Recipient\'s Address</string>
+    <string name="tracking_status">Status</string>
+    <string name="hitung_kolom_pendapatan">Please fill in the Revenue column</string>
+    <string name="hitung_tidak_wajib_bayar">You are not obliged to pay zakat.</string>
+    <string name="hitung_kolom_harga_beras">Please enter the price of rice.</string>
+    <string name="top_up_bt_tutup">Closed</string>
+    <string name="top_up_bukti_ovo">Proof of OVO Top Up</string>
+    <string name="top_up_status">Status: BERHASIL   Nomor Transaksi: FT200760YKGD  Tanggal Transaksi: 17 Maret 2020 19:54:36   Nomor Struk: 2020031619541867748  Terminal: 088218573XX   Top Up: OVO No Pelanggan: XXX  Nama Pelanggan: Raisul Amin Zulfikri  Nilai Top Up: Rp. 100.000,-  ADMIN FEE: 1000  TOTAL DIBAYAR: Rp. 101.000,-</string>
+    <string name="top_up_sukses">Thank you for using the Top Up Zakat service through the ZakatYuk Application</string>
+    <string name="top_up_kode">Code/ID</string>
+    <string name="top_up_jumlah">Amount of Top Up</string>
+    <string name="top_up_bt_lanjut">Continue</string>
+    <string name="top_up_konfirmasi">Confirmation</string>
+    <string name="top_up_pernyataan_konfirmasi">Yth. Anda akan melakukan Top Up saldo  Top Up Melalui: OVO  NO PELANGGAN: 088218573383 NAMA PELANGGAN: Raisul Amin Zulfikri  NILAI TOP UP: Rp 100.000 ADMIN: Rp 1.000   Total TopUp: Rp 101.000  Apabila anda setuju, tekan ‘Lanjut’.</string>
+    <string name="top_up_btn_konfirmasi">Confirmation</string>
+    <string name="top_up_pilih_jenis">Choose the type of Top Up</string>
+    <string name="top_up_saldo_bayar">My balance:</string>
+    <string name="top_up_currency">Rp</string>
+    <string name="top_up_history">Top Up History</string>
+    <string name="top_up_btn_topup">Top Up</string>
+    <string name="top_up_data_tidak_lengkap">Please complete the data</string>
+    <string name="home_user_welcome">Welcome,</string>
+    <string name="list_lembaga_zakat_yuk">Zakat yuk!</string>
+    <string name="bayar_intro_text">Make sure your balance is in accordance with the nominal zakat that you have calculated. Your balance is now Rp.</string>
+    <string name="top_up_btn">TOP UP</string>
+    <string name="lanjut_btn">CONTINUE</string>
+    <string name="pilih_jenis_zakat">Select the Type of Zakat</string>
+    <string name="nominal_option">Balance</string>
+    <string name="nominal_hint">Rp 5.000.000</string>
+    <string name="checkbox_text">I agree to the rules and regulations</string>
+    <string name="bayar_btn">PAYMENT</string>
+    <string name="struk_user_id">User Id</string>
+    <string name="struk_nama_pembayar">Payer Name</string>
+    <string name="struk_tgl_pembayaran">Payment date</string>
+    <string name="struk_jenis_zakat">Type of Zakat</string>
+    <string name="struk_jumlah">Amount</string>
+    <string name="nama_aplikasi">ZakatYuk</string>
+    <string name="user_profile_list_zakat">List Zakat</string>
+    <string name="zakat_intro_set_text">Make sure your balance is in accordance with the nominal zakat that you have calculated. Your balance is now</string>
+    <string name="zero_input_zakat">Zakat amount cannot be empty.</string>
+    <string name="confirm_next_zakat">You must agree to the rules and regulations</string>
+    <string name="confirm_title_alert">Payment confirmation</string>
+    <string name="bayar_alert_text">Are you sure you want to continue Payment?</string>
+    <string name="tidak_alert_btn">No</string>
+    <string name="ya_alert_text">Yes</string>
+    <string name="gagal_bayar_keterangan">Failed - Insufficient balance</string>
+    <string name="berhasil_bayar_keterangan">Successful</string>
+    <string name="slide1_title">Welcome to ZakatYuk</string>
+    <string name="slide1_desc">With this application you can make zakat payments easily you know!</string>
+    <string name="slide2_title">Calculate</string>
+    <string name="slide2_desc">You can calculate how much zakat you have to spend before paying.</string>
+    <string name="slide3_title">Top Up</string>
+    <string name="slide3_desc">After calculating, you can top up the balance of the amount of zakat that you have calculated before.</string>
+    <string name="slide4_title">Payment</string>
+    <string name="slide4_desc">Finally you can pay your obligations with one click!</string>
+</resources>

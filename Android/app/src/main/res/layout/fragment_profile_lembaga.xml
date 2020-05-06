@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="0dp"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#27AE61"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:text="@string/home_lembaga_profile_title"
+                android:textColor="#FFF"
+                android:textSize="22sp"
+                app:fontFamily="@font/poppins_medium"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/iv_home_profile_lmg_logout"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/ic_exit_to_app"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            app:cardCornerRadius="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_profile_lembaga"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginBottom="13dp"
+                    android:src="@drawable/ellips_grey"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tv_name_profile_lembaga"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/home_lembaga_profile_name"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    app:fontFamily="@font/poppins_medium"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/img_profile_lembaga"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tv_openprofilelemabaga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/home_lembaga_profile_edit"
+                    android:textColor="#4A9CCA"
+                    android:textSize="11sp"
+                    app:fontFamily="@font/poppins_medium"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/img_profile_lembaga"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_name_profile_lembaga" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="24dp"
+            android:text="Name"
+            android:textColor="#CACACA"
+            android:textSize="12sp"
+            app:fontFamily="@font/poppins_medium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView1" />
+
+        <TextView
+            android:id="@+id/tv_name_lembaga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/home_lembaga_profile_name2"
+            android:textColor="#505050"
+            app:fontFamily="@font/poppins_medium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="14dp"
+            android:text="email"
+            android:textColor="#CACACA"
+            android:textSize="12sp"
+            app:fontFamily="@font/poppins_medium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_name_lembaga" />
+
+        <TextView
+            android:id="@+id/tv_email_lembaga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/home_lembaga_profile_email"
+            android:textColor="#505050"
+            app:fontFamily="@font/poppins_medium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="14dp"
+            android:text="Alamat"
+            android:textColor="#CACACA"
+            android:textSize="12sp"
+            app:fontFamily="@font/poppins_medium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_email_lembaga" />
+
+        <TextView
+            android:id="@+id/tv_alamat_lembaga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/home_lembaga_profile_address"
+            android:textColor="#505050"
+            app:fontFamily="@font/poppins_medium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="14dp"
+            android:text="@string/home_lembaga_profile_phone"
+            android:textColor="#CACACA"
+            android:textSize="12sp"
+            app:fontFamily="@font/poppins_medium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_alamat_lembaga" />
+
+        <TextView
+            android:id="@+id/tv_telp_lembaga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="2dp"
+            android:text="+62 813-2408-7482"
+            android:textColor="#505050"
+            app:fontFamily="@font/poppins_medium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

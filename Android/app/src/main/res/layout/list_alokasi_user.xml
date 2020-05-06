@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#f59d57"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/list_container"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+
+        <ImageView
+            android:id="@+id/profile_pic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_app_user"/>
+
+        <LinearLayout
+            android:id="@+id/user_container"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/list_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Orang"/>
+
+            <TextView
+                android:id="@+id/list_user_jumlahzakat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp 50000"
+                />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/keterangan_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_app_hourglass"/>
+
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
